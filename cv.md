@@ -24,3 +24,19 @@ One of my strengths is responsibility.
 * C#
 * Python
 * JavaScript
+
+## Sample code
+```
+function factorial(n)
+{
+    if (n === 0) return 1;
+    if (n > 0 && n < 13) return n * factorial(n-1);
+    else throw new RangeError();
+}
+```
+## Education 
+
+I am a 3rd year student at Perm State University of Mechanics and Mathematics Faculty. Also receive a language education "Translator in the field of professional communication". In my free time I learn web-development on the Internet sources.
+
+
+
