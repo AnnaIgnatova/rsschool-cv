@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #03080F;
+}
+.header-container {
+    margin-top: 120px;
+}
+
+.header-name {
+    display: block;
+    font-weight: 400;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.header-surname {
+    display: block;
+    font-weight: 900;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.header-specialize {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.header-about {
+    width: 500px;
+    height: 720px;
+    margin: 0;
+    background-color:  #071117;
+}
+
+.header-title {
+    display: block;
+    padding: 5px 0 5px 15px;
+    width: 170px;
+    font-size: 24px;
+    color:  #fff;
+    background-color: #071117;
+    margin-bottom: 40px;
+}
+.main {
+    padding-bottom: 50px;
+}
+.avatar-image {
+    max-width: 500px;
+}
+.section-about {
+    padding: 40px;
+    color: #fff;
+    
+}
+.section-title {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    font-size: 24px;
+    color:  #071117;
+    background-color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.section-title-long {
+    display: block;
+    padding: 5px 0 5px 15px;
+    width: 200px;
+    font-size: 24px;
+    color:  #fff;
+    background-color: #071117;
+    margin-bottom: 40px;
+}
+.section-description {
+    line-height: 1.4;
+    font-weight: 300;
+}
+ul {
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+
+.nav-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #111111;
+    font-weight: 500;
+    margin: 0;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.section-education {
+    width: 55%;
+}
+.education-1,.education-2 {
+    display: block;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    width: 400px;
+    color: #111111;
+    font-weight: 600;
+}
+.education-info {
+    margin-top: 55px;
+}
+.year {
+    display: block;
+    margin-bottom: 15px;
+}
+.university {
+    display: block;
+    margin-top: 6px;
+}
+
+.nav-skills li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.skill {
+    display: block;
+    font-weight: 600;
+    color: #595959;
+    margin: 0;
+    margin-right: 85px;
+    margin-bottom: 10px;
+}
+.skills-wrap {
+    display: flex;
+}
+.skill-line, 
+.skill-line-2, 
+.skill-line-3 {
+    display: block;
+    width: 200px;
+    height: 6px;
+    margin-bottom: 9px;
+    background-color: #E1E1E1;
+}
+.skill-line:after {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 6px;
+    background-color: #071117;
+}
+.skill-line-2:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 6px;
+    background-color: #071117;
+}
+.skill-line-3:after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 6px;
+    background-color: #071117;
+}
+.english-level {
+    font-weight: 600;
+    font-size: 54px;
+    padding-left: 40px;
+}
+.section-english {
+    width: 55%;
+}
+.footer {
+    background-color: #071117;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+.footer-top {
+    position: absolute;
+    margin-right: 50px;
+    right: 0;
+}
+
+.top-arrow {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
