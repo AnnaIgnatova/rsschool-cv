@@ -1,144 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="libs/highlightjs/styles/base16/railscasts.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <section class="header-container">
-            <h1 class="header-name">Anna</h1>
-            <h1 class="header-surname">Ignatova</h1>
-            <span class="header-specialize">front-end developer</span>
-            <div class="header-contacts">
-                <h3 class="header-title">Contact</h3>
-                <nav class="contacts-nav">
-                    <ul>
-                        <li>
-                            <h5 class="nav-title">Phone</h5>
-                            <a href="tel:+79999999999" class="nav-link">+7 999 999 99 99</a>
-                        </li>
-                        <li>
-                            <h5 class="nav-title">E-mail</h5>
-                            <a href="#" class="nav-link">missjellx@gmail.com</a>
-
-                        </li>
-                        <li>
-                            <h5 class="nav-title">GitHub</h5>
-                            <a href="https://github.com/AnnaIgnatova/" class="nav-link">@annaignatova</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
-        <div class="header-about">
-            <img src="img/avatar.JPG" alt="avatar" class="avatar-image">
-            <section class="section-about">
-                <h3 class="section-title">About</h3>
-                <p class="section-description">I'm interested in front-end development and improve my skills every day.
-                    I think it is important - to&nbsp;be aware of all
-                    innovations related to web development.
-                    One of my strengths is responsibility.</p>
-            </section>
-        </div>
+      <div class="burger-menu">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </div>
+      <nav>
+        <button class="close-btn hide"></button>
+        <ul class="header-nav">
+          <li>
+            <a href="#contact" class="header-nav-link">Contact</a>
+          </li>
+          <li>
+            <a href="#about" class="header-nav-link">About</a>
+          </li>
+          <li>
+            <a href="#education" class="header-nav-link">Education</a>
+          </li>
+          <li>
+            <a href="#skills" class="header-nav-link">Skills</a>
+          </li>
+          <li>
+            <a href="#english" class="header-nav-link">English</a>
+          </li>
+          <li>
+            <a href="#code" class="header-nav-link">Code</a>
+          </li>
+          <li>
+            <a href="#projects" class="header-nav-link">Projects</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="main">
-        <section class="section-education">
-            <h3 class="header-title">Education</h3>
-            <div class="education-info">
-                <span class="education-1"><span class="year">Year: 2018-2022</span>Faculty of Mechanics and
-                    Mathematics<span class="university">Perm State University</span>
-                </span>
-                <span class="education-2"><span class="year">Year: 2019-2022</span>Translator in the field of
-                    professional communication<span class="university">Perm State University</span>
-                </span>
-            </div>
+      <div class="container">
+        <section id="contact" class="header-container">
+          <h1 class="header-name">Anna</h1>
+          <h1 class="header-surname">Ignatova</h1>
+          <span class="header-specialize">front-end developer</span>
+          <div class="header-contacts">
+            <h3 class="header-title">Contact</h3>
+            <nav class="contacts-nav">
+              <ul>
+                <li class="link">
+                  <h5 class="nav-title">Phone</h5>
+                  <a href="tel:+79999999999" class="nav-link"
+                    >+7 999 999 99 99</a
+                  >
+                </li>
+                <li class="link">
+                  <h5 class="nav-title">E-mail</h5>
+                  <a href="#" class="nav-link">missjellx@gmail.com</a>
+                </li>
+                <li>
+                  <h5 class="nav-title">GitHub</h5>
+                  <a href="https://github.com/AnnaIgnatova/" class="nav-link"
+                    >@annaignatova</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </section>
-        <section class="section-skills">
-            <h3 class="header-title">Skills</h3>
-            <div class="skills-wrap">
-                <nav class="nav-skills">
-                    <ul>
-                        <li>
-                            <p class="skill">HTML/CSS</p>
-                            <span class="skill-line"></span>
-                        </li>
-                        <li>
-                            <p class="skill">SASS</p>
-                            <span class="skill-line-2"></span>
-                        </li>
-                        <li>
-                            <p class="skill">Bootstrap</p>
-                            <span class="skill-line"></span>
-                        </li>
-                        <li>
-                            <p class="skill">Gulp</p>
-                            <span class="skill-line-2"></span>
-                        </li>
-                        <li>
-                            <p class="skill">Git</p>
-                            <span class="skill-line-3"></span>
-                        </li>
-                        <li>
-                            <p class="skill">JavaScript</p>
-                            <span class="skill-line-2"></span>
-                        </li>
-                        <li>
-                            <p class="skill">C++</p>
-                            <span class="skill-line-2"></span>
-                        </li>
-                        <li>
-                            <p class="skill">C#</p>
-                            <span class="skill-line-2"></span>
-                        </li>
-                        <li>
-                            <p class="skill">Python</p>
-                            <span class="skill-line-3"></span>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+        <section id="about" class="section-about">
+          <img src="img/avatar.JPG" alt="avatar" class="avatar-image" />
+          <div class="header-about">
+            <h3 class="section-title">About</h3>
+            <p class="section-description">
+              I'm interested in front-end development and improve my skills
+              every day. I think it is important - to&nbsp;be aware of all
+              innovations related to web development. One of my strengths is
+              responsibility.
+            </p>
+          </div>
         </section>
-        <section class="section-english">
-            <h3 class="section-title-long">English</h3>
-            <p class="english-level">B2</p>
+      </div>
+
+      <div class="container container-skills">
+        <section id="education" class="section-education">
+          <h3 class="header-title">Education</h3>
+          <div class="education-info">
+            <span class="education-1"
+              ><span class="year">Year: 2018-2022</span>Faculty of Mechanics and
+              Mathematics<span class="university">Perm State University</span>
+            </span>
+            <span class="education-2"
+              ><span class="year">Year: 2019-2022</span>Translator in the field
+              of professional communication<span class="university"
+                >Perm State University</span
+              >
+            </span>
+          </div>
         </section>
-        <section class="section-code">
-            <h3 class="section-title-long">Sample code</h3>
-            <pre>
-function factorial(n)
-{ 
-    if (n === 0) return 1;
-    if (n > 0) return n * factorial(n-1); 
-    else throw new RangeError(); 
+        <section id="skills" class="section-skills">
+          <h3 class="header-title">Skills</h3>
+          <div class="skills-wrap">
+            <nav class="nav-skills">
+              <ul>
+                <li>
+                  <p class="skill">HTML/CSS</p>
+                  <span class="skill-line"></span>
+                </li>
+                <li>
+                  <p class="skill">SASS</p>
+                  <span class="skill-line-2"></span>
+                </li>
+                <li>
+                  <p class="skill">Bootstrap</p>
+                  <span class="skill-line"></span>
+                </li>
+                <li>
+                  <p class="skill">Gulp</p>
+                  <span class="skill-line-2"></span>
+                </li>
+                <li>
+                  <p class="skill">Git</p>
+                  <span class="skill-line-3"></span>
+                </li>
+                <li>
+                  <p class="skill">JavaScript</p>
+                  <span class="skill-line-2"></span>
+                </li>
+                <li>
+                  <p class="skill">C++</p>
+                  <span class="skill-line-2"></span>
+                </li>
+                <li>
+                  <p class="skill">C#</p>
+                  <span class="skill-line-2"></span>
+                </li>
+                <li>
+                  <p class="skill">Python</p>
+                  <span class="skill-line-3"></span>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+      </div>
+      <div class="container container-skills">
+        <section id="english" class="section-english">
+          <h3 class="section-title-long">English</h3>
+          <p class="english-level">B2</p>
+        </section>
+        <section id="code" class="section-code">
+          <h3 class="section-title-long">Sample code</h3>
+          <pre>
+            <code>
+function factorial(n) { 
+  if (n === 0) return 1;
+  if (n > 0) return n * factorial(n-1); 
+  else throw new RangeError(); 
 }
+            </code>
+
             </pre>
         </section>
+      </div>
+      <div class="container container-projects">
+        <section id="projects" class="section-projects">
+          <h3 class="section-title-long">Projects</h3>
+          <div class="projects-wrapper">
+            <div class="project-container">
+              <div class="project project-bmw"></div>
+              <h5 class="project-title">BMWx6</h5>
+              <a href="https://annaignatova.github.io/BMWx6/" class="click"
+                >Click me</a
+              >
+              <span class="project-description">Promo-site BMWx6</span>
+              <span class="project-tech"
+                >Technologies: HTML, CSS, SASS, JavaScript</span
+              >
+            </div>
+            <div class="project-container">
+              <div class="project project-photofilter"></div>
+              <h5 class="project-title">Photofilter</h5>
+              <a
+                href="https://annaignatova.github.io/photofilter/"
+                class="click"
+                >Click me</a
+              >
+              <span class="project-description">Photofilter application</span>
+              <span class="project-tech"
+                >Technologies: HTML, CSS, JavaScript</span
+              >
+            </div>
+            <div class="project-container">
+              <div class="project project-todo"></div>
+              <h5 class="project-title">To-Do app</h5>
+              <a
+                href="https://gallant-jackson-538c1e.netlify.app/"
+                class="click"
+                >Click me</a
+              >
+              <span class="project-description">To-Do application</span>
+              <span class="project-tech"
+                >Technologies: React, Node.js, Axios.js, MySQL</span
+              >
+            </div>
+            <div class="project-container">
+              <div class="project project-piano"></div>
+              <h5 class="project-title">Virtual Piano</h5>
+              <a
+                href="https://rolling-scopes-school.github.io/annaignatova-JSFE2021Q1/virtual-piano/"
+                class="click"
+                >Click me</a
+              >
+              <span class="project-description">Piano application</span>
+              <span class="project-tech"
+                >Technologies: HTML, CSS, JavaScript</span
+              >
+            </div>
+            <div class="project-container">
+              <div class="project project-distance"></div>
+              <h5 class="project-title">Distance</h5>
+              <a
+                href="https://annaignatova.github.io/Distance/%D0%98%D0%BD%D1%82%D0%B5%D0%BD%D1%81%D0%B8%D0%B2%20%D0%A1%D0%B0%D0%B9%D1%82/"
+                class="click"
+                >Click me</a
+              >
+              <span class="project-description">Social network "Distance"</span>
+              <span class="project-tech">Technologies: HTML, CSS</span>
+            </div>
+            <div class="project-container">
+              <div class="project project-willberries"></div>
+              <h5 class="project-title">Willberries</h5>
+              <a
+                href="https://annaignatova.github.io/Wildberries/"
+                class="click"
+                >Click me</a
+              >
+              <span class="project-description">Online shop "Willberries"</span>
+              <span class="project-tech"
+                >Technologies: HTML, CSS, JavaScript, Swiper, PHP</span
+              >
+            </div>
+            <div class="project-container">
+              <div class="project project-cars"></div>
+              <h5 class="project-title">Need For JS</h5>
+              <a href="https://annaignatova.github.io/needForJS/" class="click"
+                >Click me</a
+              >
+              <span class="project-description">Race game</span>
+              <span class="project-tech"
+                >Technologies: HTML, CSS, JavaScript, Electron.js</span
+              >
+            </div>
+            <div class="project-container">
+              <div class="project project-venom"></div>
+              <h5 class="project-title">Venom 2</h5>
+              <a href="https://annaignatova.github.io/Venom2/" class="click"
+                >Click me</a
+              >
+              <span class="project-description">Promo-site Venom-2</span>
+              <span class="project-tech"
+                >Technologies: HTML, CSS, JavaScript</span
+              >
+            </div>
+            <div class="project-container">
+              <div class="project project-zoo"></div>
+              <h5 class="project-title">Online Zoo</h5>
+              <a
+                href="https://rolling-scopes-school.github.io/annaignatova-JSFE2021Q1/online-zoo/pages/landing/"
+                class="click"
+                >Click me</a
+              >
+              <span class="project-description">Online Zoo application</span>
+              <span class="project-tech"
+                >Technologies: HTML, CSS, JavaScript</span
+              >
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
     <footer class="footer">
-        <nav class="footer-nav">
-          <a href="https://github.com/AnnaIgnatova">
-            <img src="img/github-icon.png" alt="github icon" class="footer-github-icon">
-          </a>
-            <div class="footer-wrapper">
-                <a href="https://rs.school/js/">
-                  <img src="img/rs_school_js.svg" alt="rsschool icon" class="footer-rschool-icon">
-                </a>
-                <span class="footer-year">2021</span>
-            </div>
-            
-        </nav>
-        <a href="#" class="footer-top">
-            <img src="img/top-arrow.png" alt="arrow" class="top-arrow">
+      <div class="footer-container">
+        <a href="https://github.com/AnnaIgnatova">
+          <img
+            src="img/github-icon.png"
+            alt="github icon"
+            class="footer-github-icon"
+          />
         </a>
+        <div class="footer-wrapper">
+          <a href="https://rs.school/js/">
+            <img
+              src="img/rs_school_js.svg"
+              alt="rsschool icon"
+              class="footer-rschool-icon"
+            />
+          </a>
+          <span class="footer-year">2021</span>
+        </div>
+      </div>
+      <a href="#" class="footer-top">
+        <img src="img/top-arrow.png" alt="arrow" class="top-arrow" />
+      </a>
     </footer>
-</body>
 
+    <script src="./js/main.js"></script>
+    <script src="libs/highlightjs/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
 </html>
