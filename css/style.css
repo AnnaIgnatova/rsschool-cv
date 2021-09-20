@@ -9,7 +9,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 /* -------------------------- burger-menu */
 
@@ -25,11 +25,11 @@ body {
   width: 40px;
   height: 3px;
   background-color: rgb(255, 255, 255);
-  transition: .2s;
+  transition: 0.2s;
 }
 .burger-menu:hover .menu-line {
   opacity: 0.6;
-} 
+}
 .close-btn {
   position: absolute;
   width: 30px;
@@ -106,7 +106,7 @@ header {
 .header-nav-link {
   letter-spacing: 1.2px;
   display: block;
-  margin-right: 120px;
+  margin-right: 80px;
   text-decoration: none;
   color: #fff;
   transition: 0.2s;
@@ -253,6 +253,18 @@ li {
 .section-english {
   width: 50%;
 }
+.container-video {
+  justify-content: flex-start;
+  margin-bottom: 150px;
+}
+.video-player {
+  margin-left: 10%;
+  align-items: center;
+  width: 1000px;
+  height: 550px;
+  margin-top: 50px;
+  border: 0;
+}
 .footer {
   background-color: #eaeaea;
   height: 100px;
@@ -391,10 +403,24 @@ li {
 .project-container:hover .click {
   opacity: 1;
 }
+/* --------------------------  courses */
+.course-html {
+  background-image: url(../img/stepik-1.PNG);
+  margin-right: 10px;
+}
+.course-js {
+  background-image: url(../img/stepik-2.PNG);
+}
+.course-rsschool {
+  background-image: url(../img/rs-school.PNG);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
 /* ----------------------------------- adaptivity */
 @media screen and (max-width: 1400px) {
   .header-nav-link {
-    margin-right: 60px;
+    margin-right: 40px;
   }
   .main {
     width: 1000px;
@@ -431,6 +457,11 @@ li {
   .footer-container {
     padding-left: 100px;
   }
+  .video-player {
+    margin-left: 0;
+    width: 700px;
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -441,7 +472,7 @@ li {
     font-size: 20px;
   }
   .header-nav-link {
-    margin-right: 30px;
+    margin-right: 20px;
   }
   .header-title {
     font-size: 20px;
@@ -503,13 +534,17 @@ li {
     font-size: 12px;
     margin-bottom: 20px;
   }
+  .video-player {
+    width: 600px;
+    height: 350px;
+  }
 }
 @media screen and (max-width: 880px) {
   .main {
     width: 500px;
   }
   .header-nav-link {
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 14px;
   }
   .header-name,
@@ -583,6 +618,12 @@ li {
   }
   .footer-container {
     padding-left: 60px;
+  }
+  .video-player {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 450px;
+    height: 250px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -698,6 +739,11 @@ li {
   }
   .footer-top {
     margin-top: 70px;
+  }
+  .video-player {
+    margin-top: 10px;
+    width: 300px;
+    height: 150px;
   }
 }
 
