@@ -319,9 +319,11 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-top: 60px;
+  justify-content: space-between;
 }
 .project-container {
   position: relative;
+  max-width: 400px;
 }
 .project {
   display: block;
@@ -332,38 +334,29 @@ li {
   margin-bottom: 15px;
   transition: 0.2s;
 }
-.project-bmw {
-  background-image: url(../img/bmw-project.PNG);
-  margin-right: 20px;
-}
+
 .project-photofilter {
   background-image: url(../img/photofilter-project.PNG);
-  margin-right: 20px;
 }
-.project-todo {
-  background-image: url(../img/todo-project.PNG);
-}
+
 .project-piano {
   background-image: url(../img/piano-project.png);
-  margin-right: 20px;
 }
-.project-distance {
-  background-image: url(../img/distance-project.PNG);
-  margin-right: 20px;
+
+.project-museum {
+  background-image: url(../img/museum-project.PNG);
 }
-.project-willberries {
-  background-image: url(../img/wildberries-project.PNG);
+
+.project-quiz {
+  background-image: url(../img/quiz-project.PNG);
 }
-.project-cars {
-  background-image: url(../img/cars-project.PNG);
-  margin-right: 20px;
+
+.project-news {
+  background-image: url(../img/news-project.PNG);
 }
-.project-venom {
-  background-image: url(../img/venom-project.PNG);
-  margin-right: 20px;
-}
-.project-zoo {
-  background-image: url(../img/zoo-project.PNG);
+
+.project-toys {
+  background-image: url(../img/x-mas-project.PNG);
 }
 .project-title {
   font-size: 20px;
